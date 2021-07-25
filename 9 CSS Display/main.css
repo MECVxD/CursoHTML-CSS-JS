@@ -1,0 +1,35 @@
+body {
+  background-color: #eee;
+}
+p {
+  /*display: inline;
+  max-width: 350px;*/
+  background-color: #f00;
+  max-width: 350px;
+  margin: auto;
+  position: fixed; /*relative*/
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 15px;
+}
+#invisible {
+  display: none;
+}
+span {
+  display: block;
+}
+#over {
+  width: 100px;
+  height: 100px;
+  overflow: scroll; /*visible, hidden, scroll, auto*/
+  overflow-y: auto;
+  overflow-x: auto;
+}
+img:hover {
+  float: left; /*left, right*/
+  opacity: 0.5; /*0-1*/
+}
+div p {
+  color: #f01;
+}
