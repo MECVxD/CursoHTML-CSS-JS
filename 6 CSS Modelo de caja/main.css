@@ -1,0 +1,22 @@
+body {
+    background-color: #eee;
+}
+
+.caja {
+    margin: 8px;/**Bordea el contenido por fuera*/
+    border-style: solid;/*Dashed, dotted, double, groove, ridge, inset, 
+                        outset, hidden tembien se pueden mixear entre ellos
+                        siempre esta posicionado entre el margin y el padding*/
+    padding: 8px;/*bordea el contenido por dentro hasta llegar al border y envia el contenido mas al centro*/
+    border-width: 8px;
+    border-color: #faa;
+    /*border-left: ;
+    border-top: ;
+    border-bottom: ;*/
+    border-right: 8px solid #afa;/* sintaxis ANCHO ESTILO COLOR*/
+    background-color: #aaf;
+    border-radius: 8px;/*Hace que las esquinas se curveen*/
+    height: 100px;/*Propiedades que manipula el ancho y alto*/
+    width: 100px;
+    color: #575757;
+}
