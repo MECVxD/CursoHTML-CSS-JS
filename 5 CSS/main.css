@@ -1,0 +1,12 @@
+body {/*Selector mismo nombre de eriquetas de html*/
+    background-color: #efefef;/*Cambia el color del fondo*/
+    /*color: #f00000/*Cambia el color del texto*/
+}
+
+#parrafo {/*Los id generalmente son para un solo elemento*/
+    color: #ff0000;
+}
+
+.etiqueta {/*Las clases son para varios elementos*/
+    color: #00aa00;
+}
